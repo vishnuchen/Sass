@@ -1,0 +1,10 @@
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-Items: center;
+  text-align: center;
+  background: url("../img/model-1.jpg");
+  background-size: cover;
+}
+/*# sourceMappingURL=home.css.map */
