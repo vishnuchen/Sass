@@ -9,7 +9,9 @@
   height: 100%;
   padding-top: 40vh;
   overflow: hidden;
-  align-Items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
@@ -19,7 +21,7 @@
 .home__name {
   font-size: 5rem;
   padding-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
 }
 
@@ -29,7 +31,7 @@
 }
 
 .menu-btn {
-  position: "absolute";
+  position: absolute;
   z-index: 1;
   right: 1rem;
   top: 1rem;
@@ -94,7 +96,7 @@ body {
   background: #272727;
   color: #fff;
   height: 100vh;
-  font-family: 'sans-serif';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
 }
 
@@ -105,6 +107,10 @@ h1, h2, h3 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.text-secondary {
+  color: #ff652f;
 }
 
 header {
